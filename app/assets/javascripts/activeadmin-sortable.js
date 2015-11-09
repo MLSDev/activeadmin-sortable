@@ -11,7 +11,7 @@
         $.ajax({
           url: url,
           type: 'post',
-          data: { position: ui.item.index() + 1 },
+          data: { position: ui.item.index() },
           success: function() { window.location.reload() }
         });
       }
